@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tnp.App", "tnp.App\tnp.App.csproj", "{6ECE420C-CDD7-4EDF-8489-234B1A5600A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tnp.Data", "tnp.Data\tnp.Data.csproj", "{F277941F-ED7F-4927-9162-EE86B1D07B49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ECE420C-CDD7-4EDF-8489-234B1A5600A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ECE420C-CDD7-4EDF-8489-234B1A5600A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ECE420C-CDD7-4EDF-8489-234B1A5600A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ECE420C-CDD7-4EDF-8489-234B1A5600A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F277941F-ED7F-4927-9162-EE86B1D07B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F277941F-ED7F-4927-9162-EE86B1D07B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F277941F-ED7F-4927-9162-EE86B1D07B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F277941F-ED7F-4927-9162-EE86B1D07B49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

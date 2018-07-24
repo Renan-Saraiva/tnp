@@ -1,0 +1,141 @@
+﻿.glyphicon-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+@keyframes recording {
+  from { font-size: 14px; color: black; }
+  to { font-size: 20px; color: red; }
+}
+
+#map {
+    min-height: inherit;
+}
+
+#SearchGroup {
+    position: absolute;
+    top: 70px;
+}
+
+#ModalLoading {
+    position: absolute;
+    top: 0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.70);
+    z-index:9999;
+    text-align: center;
+    visibility: visible; 
+}
+
+div#ModalLoading > span {
+    position: absolute;
+    top: 50%;
+    font-size:50pt;
+}
+
+#ValorPesquisa {
+    border-right: none;
+}
+
+#btnVoice {
+    border-left: none;
+}
+
+#btnVoice[status='']:hover {
+    cursor: pointer;
+    font-size: 16px;
+    color:green;
+    transition: color 150ms cubic-bezier(0.550, 0.085, 0.680, 0.530), font-size 150ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+
+#btnVoice[status="rec"] {
+  animation-duration: 0.7s;
+  animation-name: recording;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+div#favControl[status="disable"] {
+    background-color: rgba(32, 45, 21,0.2);
+    width: 41px;   
+    height: 41px;
+    border-radius: 30px;
+    transition: background-color 150ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+
+div#favControl[status="disable"] > i {
+    color: white;
+    font-size: 20pt;
+    margin-top: 7px;
+    margin-left: 4px;
+    transition: color 150ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+
+
+div#favControl[status="enable"] {
+    background-color: rgba(32, 45, 21,0.2);
+    cursor: pointer;
+    width: 41px;   
+    height: 41px;
+    border-radius: 30px;
+    transition: background-color 150ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+
+div#favControl[status="enable"] > i {
+    color: white;
+    font-size: 20pt;
+    margin-top: 7px;
+    margin-left: 4px;
+    transition: color 150ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+
+div#favControl[status="enable"]:hover {
+    background-color: rgba(32,45,21,0.8);
+    transition: all 350ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+
+div#favControl[status="enable"]:hover  > i {
+    color: rgba(255,255,0,0.8);
+    transition: all 350ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+
+
+div#favControl[status="active"] {
+   background-color: rgba(32,45,21,0.8);
+    cursor: pointer;
+    width: 41px;   
+    height: 41px;
+    border-radius: 30px;
+    transition: background-color 150ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+
+div#favControl[status="active"] > i {
+    color: rgba(255,255,0,0.8);   
+    font-size: 20pt;
+    margin-top: 7px;
+    margin-left: 4px;
+    transition: color 150ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+
+div#favControl[status="active"]:hover {
+    background-color: rgba(32, 45, 21,0.2);    
+    transition: all 350ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+
+div#favControl[status="active"]:hover  > i {
+    color: white;
+    transition: all 350ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+

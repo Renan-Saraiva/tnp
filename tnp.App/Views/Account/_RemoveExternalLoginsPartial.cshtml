@@ -1,0 +1,42 @@
+﻿@model ICollection<tnp.Data.Models.ExternalLogin>
+@if (Model.Count > 0)
+{
+    if (ViewBag.ShowRemoveButton)
+    {
+        <div class="social-auth-links text-center">
+            <p>- Login externos registrados -</p>
+            @foreach (tnp.Data.Models.ExternalLogin externalLogin in Model)
+            {
+                switch (externalLogin.ProviderDisplayName.ToLower())
+                {
+                    case "facebook":
+                        using (Html.BeginForm("Disassociate", "Account"))
+                        {
+                            @Html.AntiForgeryToken()
+                            <div>
+                                @Html.Hidden("provider", externalLogin.Provider)
+                                @Html.Hidden("providerUserId", externalLogin.ProviderUserId)
+                                <button type="submit" value="Remove" class="btn btn-block btn-social btn-facebook btn-flat">
+                                    <i class="fa fa-facebook"></i> Dissociar a conta do Facebook
+                                </button>
+                            </div>
+                        }
+                        break;
+                    case "google":
+                        using (Html.BeginForm("Disassociate", "Account"))
+                        {
+                            @Html.AntiForgeryToken()
+                            <div>
+                                @Html.Hidden("provider", externalLogin.Provider)
+                                @Html.Hidden("providerUserId", externalLogin.ProviderUserId)
+                                <button type="submit" value="Remove" class="btn btn-block btn-social btn-google-plus btn-flat hidden">
+                                    <i class="fa fa-google-plus"></i> Dissociar a conta do Google+
+                                </button>
+                            </div>
+                        }
+                        break;
+                }
+            }
+        </div>
+    }
+}
