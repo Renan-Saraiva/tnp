@@ -1,7 +1,7 @@
-# tnp
-Aplicativo para geolocalização de ônibus na cidade de são paulo. 
+ ![Tô No Ponto](https://raw.githubusercontent.com/Renan-Saraiva/tnp/master/tnp.App/favicon.ico)
 
-![Tô No Ponto](https://raw.githubusercontent.com/Renan-Saraiva/tnp/master/tnp.App/favicon.ico)
+# tnp 
+Aplicativo para geolocalização de ônibus na cidade de são paulo.
 
 ## TCC
 Este projeto foi usado como trabalho de conclusão de curso no ano de 2015.
