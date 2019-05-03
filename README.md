@@ -13,8 +13,7 @@ O projeto foi desenvolvido com a primeira versão da API [Olho Vivo][olhovivo] d
 - Renan Saraiva (https://github.com/Renan-Saraiva)
 - Robson Santos Almeida
 - Carlos Eduardo
-- Renan Magalhães
-- Carlos Moraes
+- Carlos Morais (https://github.com/CarlosMorais)
 - Alan Viotto
 
 
