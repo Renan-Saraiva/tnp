@@ -11,7 +11,7 @@ O projeto foi desenvolvido com a primeira versão da API [Olho Vivo][olhovivo] d
 
 ## Autores
 - Renan Saraiva (https://github.com/Renan-Saraiva)
-- Robson Santos Almeida
+- Robson Santos Almeida (https://github.com/atteipos)
 - Carlos Eduardo
 - Carlos Morais (https://github.com/CarlosMorais)
 - Alan Viotto
